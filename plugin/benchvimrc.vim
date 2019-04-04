@@ -16,7 +16,7 @@ function! s:detect_vimrc()
       return vimrc
     endif
   endif
-  return fnamemodify(expand('~/.vimrc'), ':p')
+  return fnamemodify(expand('~/.config/nvim/init.vim'), ':p')
 endfunction
 
 function! s:benchvimrc(...)
